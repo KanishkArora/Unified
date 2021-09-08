@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#e4c4a1</item>
+        <item name="colorPrimaryDark">#e4c4a1</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">#e4c4a1</item>
+        <item name="android:textColorSecondary">#000000</item>
+
+        <item name="android:colorButtonNormal">@drawable/button_selector</item>
+        <item name="colorButtonNormal">@drawable/button_selector</item>
+        <item name="android:buttonStyle">@style/FriendlyButtonStyle</item>
+    </style>
+    <style name="LoinTheme" parent="FirebaseUI">
+        <item name="colorPrimary">#b87935</item>
+        <item name="colorPrimaryDark">@color/colorBiege</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">#e4c4a1</item>
+        <item name="android:windowBackground">@color/colorBiege</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorSecondary">#FFFFFF</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="colorControlNormal">#FFFFFF</item>
+        <item name="colorControlHighlight">#FFFFFF</item>
+        <item name="colorControlActivated">#FFFFFF</item>
+
+    </style>
+</resources>
